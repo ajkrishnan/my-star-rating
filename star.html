@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        star rating
+    </title>
+    <link rel="stylesheet" href="star.css">
+    <script type="text/javascript" src="star.js"></script>
+</head>
+<body>
+    <header>
+        <h1>ABC COMPANY</h1>
+    </header>
+    <h2>STAR RATINGS</h2>
+    <section>
+        <ul>
+            <li>
+                <span class="parameter">PERFORMANCE</span>
+                <span class="starContainer">
+                    <input class = "hideRadio" type="radio" id="star5-1" name="performanceRating" value="5" /><label for="star5-1" title="Rocks!" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star4-1" name="performanceRating" value="4" /><label for="star4-1" title="Pretty good" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star3-1" name="performanceRating" value="3" /> <label for="star3-1" title="Meh" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star2-1" name="performanceRating" value="2" /><label for="star2-1" title="BAD" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star1-1" name="performanceRating" value="1" /><label for="star1-1" title="Vbad" class = "defaultColor">&#9733;</label>
+                </span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span class="parameter">CLARITY</span>
+                <span class="starContainer">
+                    <input class = "hideRadio" type="radio" id="star5-2" name="clarityRating" value="5" /><label for="star5-2" title="Rocks!" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star4-2" name="clarityRating" value="4" /><label for="star4-2" title="Pretty good" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star3-2" name="clarityRating" value="3" /> <label for="star3-2" title="Meh" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star2-2" name="clarityRating" value="2" /><label for="star2-2" title="BAD" class = "defaultColor">&#9733;</label>
+                    <input class = "hideRadio" type="radio" id="star1-2" name="clarityRating" value="1" /><label for="star1-2" title="Vbad" class = "defaultColor">&#9733;</label>
+                </span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span class="parameter">AVERAGE</span>
+                <span class="starContainer" id = "averageRating">
+                    <label id="star4">&#9733;</label>
+                    <label id="star3">&#9733;</label>
+                    <label id="star2">&#9733;</label>
+                    <label id="star1">&#9733;</label>
+                    <label id="star0">&#9733;</label>
+                </span>
+            </li>
+        </ul>
+    </section>
+    <div id="buttonPosition">
+        <button onclick="findAverage()">submit</button>
+    </div>
+    <footer>
+        HELP
+    </footer>
+</body>

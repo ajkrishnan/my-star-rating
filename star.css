@@ -1,0 +1,92 @@
+h1 {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+header {
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    height: 100px;
+}
+body {
+    margin: 0;
+}
+section {
+    width: 100%;
+    height: 150px;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    height: 72px;
+    margin: 0px auto;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+}
+ul {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+li{
+    line-height: 30px;
+    width: 100%;
+    float: left;
+}
+.starContainer{
+    float: left;
+    width: 50%;
+}
+.parameter {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+.hideRadio {
+    visibility: hidden;
+}
+.starContainer:not(:checked) > label {
+    float:right;
+    overflow:hidden;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+}
+.starContainer > input:checked ~ label {
+    color: #FF0;
+}
+.starContainer:not(:checked) > label:hover,
+.starContainer:not(:checked) > label:hover ~ label {
+    color: #FF0;
+}
+#starContainerAverage {
+    color: #DDD;
+    width: 50%;
+    font-size: 31px;
+    float: right;
+    text-align: right;
+}
+#buttonPosition {
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
+
